@@ -5,6 +5,7 @@ Running shell script in setuid is disabled by default from most Linux distrubuti
 The C code here is an enhanced version with following features added:
 * Passing arguments when calling the shell script
 * Calling argv[0].sh, means you can rename it to any other name, such as "foo", then calling foo will be redirected to foo.sh with all the arguments
+* No setgid
 
 So, compile and install it:
 * gcc wrapper.c -o foo

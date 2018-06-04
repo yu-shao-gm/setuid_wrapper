@@ -1,4 +1,4 @@
-# Allow setuid on shell scripts - setuid_wrapper
+# Allow setuid on shell scripts
 
 Running shell script in setuid is disabled by default from most Linux distrubutions due to security reasons. If you still have the need to "setuid", you could recompile the kenrel, or by calling the shell script from a C wrapper as mentioned here: https://access.redhat.com/solutions/124693
 
@@ -11,3 +11,5 @@ So, compile and install it:
 * cp foo /bin/
 * chmod 4711 /bin/foo
 * chmod 700 /bin/foo.sh
+
+Enjoy it!
